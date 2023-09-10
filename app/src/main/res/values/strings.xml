@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">wallpaper</string>
+
+    <string name="lock_screen_set">Lockscreen wallpaper set!</string>
+    <string name="home_set">Homescreen wallpaper set!</string>
+    <string name="both_set">Home and lockscreen wallpaper set!</string>
+
+    <string-array name="set_wallpaper_options">
+        <item>Home Screen</item>
+        <item>Lock Screen</item>
+        <item>Both</item>
+    </string-array>
+
+    <string-array name="set_wallpaper_options2">
+        <item>Home Screen</item>
+    </string-array>
+
+    <string name="admobid">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="applovin">VtxHSA9uzRwmFTcaT4l6lZT9dBWJAWqscricBW2_R2NgRJ0tzCrHb_qxVHJT-__c6H3gmuoJ0Iz_ws8RgzXQUR</string>
+
+</resources>

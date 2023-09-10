@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wallpaperCategory">
+
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/justprogr"
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+
+        android:visibility="gone" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myListVie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/maxad_container"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/maxad_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/cpaimag"
+            tools:src="@tools:sample/avatars"
+            android:visibility="gone"
+            >
+
+        </ImageView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

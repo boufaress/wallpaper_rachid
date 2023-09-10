@@ -1,0 +1,20 @@
+<resources>
+
+
+    <style name="mTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppThemeLight.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="splashtheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#3C3C3C</item>
+        <item name="colorPrimaryDark">#3C3C3C</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+</resources>

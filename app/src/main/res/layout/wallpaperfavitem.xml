@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#D6D5D5"
+    card_view:cardCornerRadius="2dp"
+    android:layout_margin="5dp"
+    card_view:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="170dp"
+        android:id="@+id/game"
+        android:layout_height="220dp">
+
+        <ImageView
+            android:id="@+id/imgFood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/loadtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/freefont"
+            android:text="waiting..."
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progressBar_wall_grid"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@id/imgFood"
+            android:layout_centerHorizontal="true"
+            android:background="#7D111743"
+            android:ellipsize="end"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="preview"
+            android:textColor="#a7ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#7d0e1336"
+            android:text="xxxxxxxxxxx"
+            android:textColor="#a7ffffff"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
